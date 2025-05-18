@@ -1,0 +1,105 @@
+E1
+Răspuns corect: d
+
+Clasa Carte implementează interfața Produs.
+
+Clasa Carte este o compoziție de obiecte de tip Capitol.
+
+E2
+Răspunsuri corecte: c, f
+
+Relația dintre Articol și Revistă este o relație de compoziție.
+
+Clasa Revistă implementează interfața Produs.
+
+E3
+Răspunsuri corecte: a, c, g
+
+Clasa CodSursa are o relație de asociere bidirecțională cu clasa Proiect.
+
+Clasa DiagramaUML are o relație de compoziție cu clasa Proiect.
+
+getGrade() este o metodă publică în clasa Proiect.
+
+E4
+Răspunsuri corecte: b, d, f
+
+Un obiect de tip Student conține o colecție de obiecte de tip Proiect.
+
+Clasa Student are o operație publică adaugaProiect.
+
+Clasa Student este supraclasa clasei StudentBursier.
+
+E5
+Răspuns corect: b
+
+Clasa Profesor are o relație de asociere cu clasa Materie.
+
+E6
+Răspunsuri corecte: a, d, e
+
+Clasa Materie definește o compoziție de obiecte de tip Curs.
+
+Clasa Materie nu definește un agregat de tip Laborator (este tot compoziție).
+
+Un obiect de tip Materie conține o colecție de obiecte de tip Test.
+
+E7
+Răspuns corect: c
+
+Clasa Materie definește o compoziție de tip Laborator.
+
+Clasa Laborator poate conține un obiect de tip Materie.
+
+E8
+Răspuns corect: d
+
+Este o asociere unidirecțională între Profesor și Materie de tip predă.
+
+Compoziție între clasele Materie și Curs.
+
+Compoziție între Materie și Laborator.
+
+Compoziție între Materie și Test.
+
+E9
+Răspunsuri corecte: b, e, g, i
+
+Clasa Carte are ca atribut pret.
+
+Clasa Carte implementează interfața Produs.
+
+Clasa Carte implementează metoda getPret().
+
+Între clasa Carte și Capitol este o relație de compoziție.
+
+E10
+Răspuns corect: b
+
+Clasa Angajat este o clasă abstractă.
+
+Metoda abstractă void calculPlata() nu poate fi implementată în această clasă.
+
+E11
+Răspunsuri corecte: a, d
+
+Clasa AngajatCuOra moștenește clasa Angajat.
+
+Clasa AngajatCuOra moștenește metoda calculPlata().
+
+E12
+Răspunsuri corecte: c, d, e
+
+Clasa Rezervare are atributul urmatorulCod de tip int, care este static (subiniat).
+
+getUrmatorulCod() este o metodă statică publică a clasei Rezervare.
+
+public static Client getClient(){} nu este corectă, pentru că nu este subliniată, deci nu e marcată ca statică.
+
+E13
+Răspunsuri corecte: c, e
+
+Clasa Proiect definește compoziții de obiecte de tip Student, DiagramaUML și RaportTestare.
+
+Clasa Proiect este în relație de asociere cu clasa CodSursa.
+
